@@ -9,31 +9,89 @@
         <div class="page-header">
           <h1>Stoyboard - Backlog <small>Display the backlog tasks grouped by sprints</small></h1>
         </div>
+        
     </head>
-    <body>
+    <body style="margin:30;padding:30">
         <div class="btn-group" role="group" aria-label="...">
           <button type="button" class="btn btn-default">Backlog</button>
           <button type="button" class="btn btn-default">Active</button>
         </div>
         
-        <br>
+        <p></br>This is for testing button/nav to see which one is better: </p>
         <ul class="nav nav-pills">
           <li role="presentation" class="active"><a href="#">Backlog</a></li>
           <li role="presentation"><a href="#">Active</a></li>
-          <li role="presentation"><a href="#">This is for testing button/nav to see which one is better</a></li>
         </ul>
         
         <br>
         <nav class="navbar navbar-default">
-            
-            
+           <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Type</a></li>
+                <li><a href="#">Owner</a></li>
+                <li class="active"><a href="#">Status<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Project</a></li>
+               </ul>
             
             <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Contain text">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
+          </div>
+         </div>
         </nav>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Sprint 1  <small> 2 issues</small></h2>  
+      </div>  
+          <div class="panel-body">
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-success">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <span class="badge">14</span>
+                    Create Class diagrams
+                </li>
+                <li class="list-group-item list-group-item-warning">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <span class="badge">3</span>
+                    Create a mockup
+                </li>
+              </ul>
+          </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Sprint 2  <small> 1 issue</small></h2>  
+      </div>  
+          <div class="panel-body">
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-info">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <span class="badge">1</span>
+                    Divide the tasks
+                </li>
+              </ul>
+          </div>
+    </div>
+    <hr>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Backlog  <small> 1 issue</small></h2>  
+      </div>  
+          <div class="panel-body">
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-primary ">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <span class="badge">8</span>
+                    Write the report
+                </li>
+              </ul>
+          </div>
+    </div>
     </body>
 </html>
