@@ -89,11 +89,89 @@
 			</div>
 			
 			<div role="tabpanel" class="tab-pane" id="activeSprint">
+				<br />
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">Options</a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Group By<span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Type</a></li>
+										<li><a href="#">Owner</a></li>
+										<li><a href="#">Parent</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sort By<span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Issue No</a></li>
+										<li><a href="#">Summary</a></li>
+									</ul>
+								</li>
+							</ul>
+							<form class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Filter">
+								</div>
+							</form>
+						</div>
+					</div>
+				</nav>
 				<div class="row">
-					<div class="col-md-3">column</div>
-					<div class="col-md-3">column</div>
-					<div class="col-md-3">column</div>
-					<div class="col-md-3">column</div>
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2 class="panel-title">Draft</h2>
+						</div>
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<div class="panel-title">Create a mockup (ticket) <span class="glyphicon glyphicon-pencil" style="float:right" /></div>
+							</div>
+							<div class="panel-body"><a hre="#">Issue 6</a><br />Create a mockup for the create a ticket page. Have accompanying specification documents</div>
+						</div>
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<div class="panel-title">Create a mockup (storyboard) <span class="glyphicon glyphicon-pencil" style="float:right" /></div>
+							</div>
+							<div class="panel-body"><a hre="#">Issue 7</a><br />Create a mockup for the storyboard page. Have accompanying specification documents</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2 class="panel-title">In Progress</h2>
+						</div>
+						<div class="panel panel-info">
+							<div class="panel-heading">
+									<div class="panel-title">Commit base project to scm <span class="glyphicon glyphicon-pencil" style="float:right" /></div>
+								</div>
+							<div class="panel-body"><a hre="#">Issue 3</a><br />Create project from a maven archertype and commit it to scm trunk</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2 class="panel-title">Blocked</h2>
+						</div>
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+									<div class="panel-title">Write login.jsp <span class="glyphicon glyphicon-pencil" style="float:right" /></div>
+								</div>
+							<div class="panel-body"><a hre="#">Issue 11</a><br />Write login.jsp and mak sure that the appropriate presentation objects are mapped to the UI elements</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2 class="panel-title">Done</h2>
+						</div>
+						<div class="panel panel-success">
+							<div class="panel-heading">
+									<div class="panel-title">Create project location in repo <span class="glyphicon glyphicon-pencil" style="float:right" /></div>
+								</div>
+							<div class="panel-body"><a hre="#">Issue 1</a><br />Create a folder for the new project in the git repository.</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
